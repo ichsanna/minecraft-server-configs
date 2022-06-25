@@ -1,0 +1,36 @@
+panels:
+  Player-Tools:
+    perm: default
+    rows: 1
+    title: Tools
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '10':
+        material: FILLED_MAP
+        stack: 1
+        name: Open server map
+        commands:
+        - tellraw @p {"text":"Click here to open server map","color":"green","clickEvent":{"action":"open_url","value":"http://mydomain.com:8123"}}
+      '18':
+        material: DIRT
+        name: ''
+      '4':
+        material: STONE_BRICK_WALL
+        stack: 1
+        name: Locate last grave
+        commands:
+        - trigger grave
+      '6':
+        material: DIAMOND_SWORD
+        name: Open Aurelium Skills menu
+        commands:
+        - skill
+        stack: 1
+      '2':
+        material: COMPASS
+        stack: 1
+        name: Teleport to Spawn
+        commands:
+        - trigger spawn
+    commands:
+    - tool
