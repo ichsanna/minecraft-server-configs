@@ -1,3 +1,11 @@
+hooks:
+  HolographicDisplays:
+    enabled: true
+  DecentHolograms:
+    enabled: false
+reset-skills-on-death: false
+reset-xp-on-death: false
+save-blank-profiles: false
 # +----------------------------------------------------------------------------+ #
 # |                       Aurelium Skills Configuration                        | #
 # |                                                                            | #
@@ -6,7 +14,7 @@
 # |      Config Guide: https://wiki.aurelium.dev/skills/config/main-config     | #
 # +----------------------------------------------------------------------------+ #
 # Plugin made by Archy
-# 
+#
 # MySql Options
 default-language: en
 try-detect-client-language: true
@@ -52,6 +60,7 @@ mysql:
   always-load-on-join: false
   ssl: false
 action-bar:
+  use-suffix: true
   enabled: true
   idle: true
   ability: true
@@ -61,6 +70,8 @@ action-bar:
   round-xp: false
   placeholder-api: true
 boss-bar:
+  placeholder-api: true
+  use-suffix: true
   enabled: true
   mode: multi
   stay-time: 60
@@ -134,6 +145,7 @@ modifier:
 requirement:
   enabled: true
   item:
+    prevent-interact: true
     prevent-tool-use: true
     prevent-weapon-use: true
     prevent-block-place: true
@@ -211,6 +223,7 @@ agility:
   max-level: 97
   check-cancelled: true
 alchemy:
+  ignore-custom-potions: false
   check-multiplier-permissions: true
   enabled: true
   max-level: 97
@@ -223,6 +236,7 @@ enchanting:
   max-level: 97
   check-cancelled: true
 sorcery:
+  check-cancelled: true
   check-multiplier-permissions: true
   enabled: true
   max-level: 97
@@ -233,6 +247,9 @@ healing:
   max-level: 97
   exclude-negative-potions: false
 forging:
+  blocked-grindstone-enchants:
+  - binding_curse
+  - vanishing_curse
   check-multiplier-permissions: true
   enabled: true
   max-level: 97
