@@ -1,0 +1,85 @@
+type: mining
+pools:
+  rare:
+    base_chance: 0.2
+    selection_priority: 1
+    loot:
+      - type: item
+        material: iron_nugget
+        weight: 15
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: gold_nugget
+        weight: 10
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: copper_ingot
+        weight: 10
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: coal
+        weight: 10
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: bone
+        weight: 15
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: gunpowder
+        weight: 10
+        amount: 1
+        sources: [stone, andesite, diorite, granite]
+      - type: item
+        material: nether_quartz
+        weight: 10
+        amount: 1
+        sources: [netherrack]
+      - type: item
+        material: glowstone_dust
+        weight: 10
+        amount: 1
+        sources: [netherrack]
+  epic:
+    base_chance: 0.05
+    selection_priority: 2
+    loot:
+      - type: item
+        material: amethyst_shard
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: diamond
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: iron_ingot
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: gold_ingot
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: coal_block
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: bone_block
+        weight: 10
+        amount: 1
+        sources: [tuff, deepslate]
+      - type: item
+        material: ghast_tear
+        weight: 10
+        amount: 1
+        sources: [netherrack]
