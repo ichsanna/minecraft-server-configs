@@ -35,7 +35,7 @@ pools:
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
-        material: nether_quartz
+        material: quartz
         weight: 10
         amount: 1
         sources: [netherrack]

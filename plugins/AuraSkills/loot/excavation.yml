@@ -153,10 +153,6 @@ pools:
         weight: 10
         amount: 1
       - type: item
-        material: quartz
-        weight: 10
-        amount: 1
-      - type: item
         material: name_tag
         weight: 10
         amount: 1
