@@ -1,14 +1,12 @@
 patterns:
   - type: stat
-    stat: wisdom
-    value: 1
+    stat: health
+    value: 0.4
     pattern:
-      start: 2
       interval: 1
   - type: stat
-    stat: regeneration
+    stat: strength
     value: 1
     pattern:
-      start: 2
       interval: 2
 levels:

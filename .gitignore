@@ -22,10 +22,12 @@ ops.json
 /world_nether
 /world_the_end
 
-/plugins/AureliumSkills/
-!/plugins/AureliumSkills/abilities-config.yml
-!/plugins/AureliumSkills/config.yml
-!/plugins/AureliumSkills/sources-config.yml
+/plugins/AuraSkills/*
+!/plugins/AuraSkills/abilities-config.yml
+!/plugins/AuraSkills/loot
+!/plugins/AuraSkills/sources
+!/plugins/AuraSkills/rewards
+!/plugins/AuraSkills/*.yml
 /plugins/bstats
 /plugins/Chunky
 /plugins/dynmap

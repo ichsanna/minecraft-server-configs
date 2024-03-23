@@ -1,14 +1,12 @@
 patterns:
   - type: stat
-    stat: luck
+    stat: crit_damage
     value: 1
     pattern:
-      start: 2
       interval: 1
   - type: stat
-    stat: health
+    stat: regeneration
     value: 1
     pattern:
-      start: 2
       interval: 2
 levels:

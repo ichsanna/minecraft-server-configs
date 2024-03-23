@@ -1,0 +1,239 @@
+type: block
+pools:
+  uncommon:
+    base_chance: 1
+    selection_priority: 1
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: stick
+        weight: 10
+        amount: 1
+        xp: 20
+      - type: item
+        material: bone
+        weight: 10
+        amount: 1
+        xp: 30
+      - type: item
+        material: feather
+        weight: 10
+        amount: 1
+        xp: 40
+  rare:
+    base_chance: 0.2
+    selection_priority: 1
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: potato
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: carrot
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: wheat_seeds
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: beetroot_seeds
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: pumpkin_seeds
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: melon_seeds
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: sweet_berrier
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [dirts]
+      - type: item
+        material: oak_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: birch_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: acacia_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: jungle_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: dark_oak_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: spruce_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: mangrove_propagule
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [clay,mud]
+      - type: item
+        material: cherry_sapling
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [dirts]
+      - type: item
+        material: cactus
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [sands]
+      - type: item
+        material: gunpowder
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [gravel, sands]
+      - type: item
+        material: charcoal
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [clay, mud]
+      - type: item
+        material: brown_mushroom
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [mycelium]
+      - type: item
+        material: red_mushroom
+        weight: 7
+        amount: 1
+        xp: 70
+        sources: [mycelium]
+      - type: item
+        material: glowstone_dust
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [soul_sand, soul_soil]
+      - type: item
+        material: nether_wart
+        weight: 7
+        amount: 1
+        xo: 70
+        sources: [soul_sand, soul_soil]
+  epic:
+    base_chance: 0.05
+    selection_priority: 2
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: arrow
+        weight: 10
+        amount: 1
+        xp: 500
+      - type: item
+        material: quartz
+        weight: 10
+        amount: 1
+        xp: 600
+      - type: item
+        material: name_tag
+        weight: 10
+        amount: 1
+        xp: 700
+      - type: item
+        material: iron_ingot
+        weight: 7
+        amount: 1
+        xp: 1000
+        sources: [dirts]
+      - type: item
+        material: gold_ingot
+        weight: 7
+        amount: 1
+        xp: 2000
+        sources: [sand, red_sand]
+      - type: item
+        material: ink_sac
+        weight: 7
+        amount: 1
+        xp: 3000
+        sources: [gravel]
+      - type: item
+        material: slime_ball
+        weight: 7
+        amount: 1
+        xp: 3000
+        sources: [clay, mud]
+      - type: item
+        material: phantom_membrane
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [dirts]
+      - type: item
+        material: scute
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [sands]
+      - type: item
+        material: nautilus_shell
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [gravel]
+      - type: item
+        material: honeycomb
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [clay, mud]
+      - type: item
+        material: ghast_tear
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [soul_sand, soul_soil]
+      - type: item
+        material: experience_bottle
+        weight: 4
+        amount: 1
+        xp: 5000
+        sources: [mycelium]
