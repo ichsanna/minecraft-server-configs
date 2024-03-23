@@ -4,7 +4,7 @@ I used the following server configurations, plugins, and data packs for my priva
 ## Server Software
 - [Paper](https://papermc.io) - High performance server based on Spigot.
 ## Plugins
-- [Aurelium Skills](https://www.spigotmc.org/resources/aurelium-skills-advanced-skills-stats-abilities-and-more.81069/) - Adds rpg elements & skills.
+- [Aurelium Skills](https://www.spigotmc.org/resources/aurelium-skills-advanced-skills-stats-abilities-and-more.81069/) - Adds RPG elements & skills.
 - [Command Panels](https://www.spigotmc.org/resources/command-panels-custom-guis.67788/) - Adds GUI based menu to give info & access various commands with only clicking.
 - [Chunky](https://www.spigotmc.org/resources/chunky.81534) - Pregenerates chunks so the server will use fewer resources when the players explore new locations.
 - [Dynmap](https://www.spigotmc.org/resources/dynmap%C2%AE.274/) - Renders server map which can be viewed from the browser.
