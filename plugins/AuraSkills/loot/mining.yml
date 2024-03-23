@@ -1,4 +1,4 @@
-type: mining
+type: block
 pools:
   rare:
     base_chance: 0.2
