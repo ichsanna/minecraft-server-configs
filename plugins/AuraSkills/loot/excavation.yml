@@ -19,7 +19,7 @@ pools:
         amount: 1
   rare:
     base_chance: 0.2
-    selection_priority: 1
+    selection_priority: 2
     override_vanilla_loot: false
     loot:
       - type: item
@@ -145,7 +145,7 @@ pools:
         sources: [soul_sand, soul_soil]
   epic:
     base_chance: 0.05
-    selection_priority: 2
+    selection_priority: 3
     override_vanilla_loot: false
     loot:
       - type: item
