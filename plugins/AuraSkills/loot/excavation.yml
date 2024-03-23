@@ -53,7 +53,7 @@ pools:
         amount: 1
         sources: [dirts]
       - type: item
-        material: sweet_berrier
+        material: sweet_berries
         weight: 7
         amount: 1
         sources: [dirts]
