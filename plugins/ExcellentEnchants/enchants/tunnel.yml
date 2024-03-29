@@ -1,14 +1,16 @@
-# Sets whether this enchantment is a treasure enchantment.
-# Treasure enchantments can only be received via looting, trading, or fishing.
-Is_Treasure: false
 # Enchantment display name. It will be shown in item lore.
 Name: Tunnel
 # Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
-Tier: exotic
+Tier: legendary
 # Enchantment description. It will be shown in item lore under enchantment name.
 # You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-- Mines/Digs multiple blocks at once.
+- Mines multiple blocks at once in a certain shape.
+# Sets whether or not this enchantment will be hidden from Enchants GUI.
+Hide_From_List: false
+# Sets whether this enchantment is a treasure enchantment.
+# Treasure enchantments can only be received via looting, trading, or fishing.
+Is_Treasure: false
 Level:
   # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1
@@ -17,44 +19,13 @@ Level:
   # settings will have a limit up to this setting.
   Max: 3
 Anvil:
+  # Sets max. enchantment level that can be obtained by combining 2 items with this enchantment.
+  # Set this to '-1' to remove merge limit and just use 'Max Level' instead.
+  Max_Merge_Level: -1
   # Sets how much XP levels will be added to the anvil cost when combining custom enchantments.
   # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
   # Level placeholder: %enchantment_level%
   Merge_Cost: '%enchantment_level%'
-  # Sets max. enchantment level that can be obtained by combining 2 items with this enchantment.
-  # Set this to '-1' to remove merge limit and just use 'Max Level' instead.
-  Max_Merge_Level: -1
-Enchantment_Table:
-  Level_By_Exp_Cost: 9 * %enchantment_level%
-  Chance: 25.0
-Villagers:
-  # Chance for this enchantment to be obtained via Villagers
-  Chance: 20.0
-  Level:
-    # Minimal level when obtained via Villagers
-    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
-    Min: -1
-    # Maximal level when obtained via Villagers
-    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
-    Max: -1
-Loot_Generation:
-  # Chance for this enchantment to be obtained via Loot_Generation
-  Chance: 20.0
-  Level:
-    # Minimal level when obtained via Loot_Generation
-    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
-    Min: -1
-    # Maximal level when obtained via Loot_Generation
-    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
-    Max: -1
-Settings:
-  Trigger_Chance: '100.0'
-  # When 'true' the enchantment won't be triggered when sneaking.
-  Ignore_When_Sneaking: true
-  # Enables/Disables enchantment visual effects, such as particles.
-  Visual_Effects: true
-# Sets whether or not this enchantment will be hidden from Enchants GUI.
-Hide_From_List: false
 Enchanting_Table:
   # Sets how much XP levels must be used in enchanting table to obtain this enchantment.
   # With a default formula '9 * %enchantment_level%' it will be [9, 18, 27] XP levels for [1, 2, 3] enchantment levels.
@@ -68,6 +39,26 @@ Enchanting_Table:
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
     Min: -1
     # Maximal level when obtained via Enchanting_Table
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Villagers:
+  # Chance for this enchantment to be obtained via Villagers
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Villagers
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Villagers
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Loot_Generation:
+  # Chance for this enchantment to be obtained via Loot_Generation
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Loot_Generation
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Loot_Generation
     # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
     Max: -1
 Fishing:
@@ -95,3 +86,8 @@ Mob_Spawning:
 Conflicts:
 - blast_mining
 - veinminer
+Settings:
+  # Enables/Disables enchantment visual effects, such as particles.
+  Visual_Effects: true
+  # When 'true' the enchantment won't be triggered when sneaking.
+  Ignore_When_Sneaking: true
