@@ -4,21 +4,33 @@ I used the following server configurations, plugins, and data packs for my priva
 ## Server Software
 - [Paper](https://papermc.io) - High performance server based on Spigot.
 ## Plugins
-- [Aurelium Skills](https://www.spigotmc.org/resources/aurelium-skills-advanced-skills-stats-abilities-and-more.81069/) - Adds RPG elements & skills.
+- [Aura Skills](https://www.spigotmc.org/resources/auraskills-formerly-aurelium-skills.81069/) - Adds RPG elements & skills.
 - [Command Panels](https://www.spigotmc.org/resources/command-panels-custom-guis.67788/) - Adds GUI based menu to give info & access various commands with only clicking.
 - [Chunky](https://www.spigotmc.org/resources/chunky.81534) - Pregenerates chunks so the server will use fewer resources when the players explore new locations.
 - [Dynmap](https://www.spigotmc.org/resources/dynmap%C2%AE.274/) - Renders server map which can be viewed from the browser.
 - [Excellent Enchants](https://www.spigotmc.org/resources/excellentenchants-vanilla-like-enchantments-1-16-1-18.61693/) - Adds new enchantments.
 - [Farm Protection for MC 1.16 - 1.20](https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-20.85488/) - Disables crop breaking when jumping on top of them.
 - [Levelled Mobs](https://www.spigotmc.org/resources/levelledmobs.74304/) - Adds mob leveling.
-- [Overleveled Enchanter](https://www.spigotmc.org/resources/overleveled-enchanter.93379/) - Increases enchantment levels.
+- [Overleveled Enchanter](https://www.spigotmc.org/resources/overleveled-enchanter.93379/) - Increases max enchantments level.
 - [SpigotPing](https://www.spigotmc.org/resources/spigotping-added-in-tablist-ping.24419/) - Adds ping indicator to the tab menu.
 ## Data packs
 ### World Generation
-- [Terralith](https://www.stardustlabs.net/datapacks#Terralith) - Overhauls overworld terrain generation with new biomes and structures.
-- [Incendium](https://www.stardustlabs.net/datapacks#Incendium)- Overhauls nether terrain generation with new biomes, structures, items, and mobs.
-- [Nullscape](https://www.stardustlabs.net/datapacks#Nullscape) - Overhauls end dimension terrain generation.
+- [Deeper Dark](https://modrinth.com/datapack/deeper_dark) - Adds new "Deeper Dark" dimension.
+- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns) - Adds new overworld structures.
+- [Explorify](https://modrinth.com/datapack/explorify) - Adds new structures.
+- [Hopo Better Mineshaft](https://modrinth.com/datapack/better-mineshaft)- Adds new mineshaft variants.
+- [Hopo Better Ruined Portal](https://modrinth.com/datapack/hopo-better-ruined-portals)- Adds new ruined portal variants.
+- [Hopo Better Underwater Ruins](https://modrinth.com/datapack/better-underwater-ruins)- Adds new ocean ruins variants.
+- [Just Another Structure Pack](https://modrinth.com/datapack/just-another-structure-pack/) - Adds new structures.
+- [Stellarity](https://modrinth.com/datapack/stellarity) - Overhauls the end dimension terrain generation.
 - [Structory](https://www.stardustlabs.net/datapacks#Structory) - Adds new structures in addition to Terralith's.
+- [Terralith](https://www.stardustlabs.net/datapacks#Terralith) - Overhauls overworld terrain generation with new biomes and structures.
+- [Tidal Towns](https://modrinth.com/datapack/tidal-towns) - Adds new village to deep ocean biome.
+- [Towns & Towers](https://www.planetminecraft.com/data-pack/towns-amp-towers-structure-overhaul/) - Adds new structures.
+### Mobs
+- [Nice Mobs Variants](https://www.planetminecraft.com/data-pack/nice-mob-variants/) - Adds new mobs variants, structures, and bosses.
+### Other
+- [Refined Advancements](https://modrinth.com/datapack/refined-advancements) - Updates and adds new advancements.
 ## Vanilla Tweaks
 ### Data packs
 - Graves - Spawns a gravestone at the player's death location (stores inventory before death).
