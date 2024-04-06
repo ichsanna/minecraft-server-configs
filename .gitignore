@@ -21,6 +21,7 @@ ops.json
 /world
 /world_nether
 /world_the_end
+/world_deeper_dark_deeper_dark
 
 /plugins/AuraSkills/*
 !/plugins/AuraSkills/abilities-config.yml
