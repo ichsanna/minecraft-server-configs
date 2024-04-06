@@ -61,49 +61,41 @@ pools:
         material: oak_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: birch_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: acacia_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: jungle_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: dark_oak_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: spruce_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: mangrove_propagule
         weight: 7
         amount: 1
-        xo: 70
         sources: [clay,mud]
       - type: item
         material: cherry_sapling
         weight: 7
         amount: 1
-        xo: 70
         sources: [dirts]
       - type: item
         material: cactus
@@ -119,7 +111,6 @@ pools:
         material: charcoal
         weight: 7
         amount: 1
-        xo: 70
         sources: [clay, mud]
       - type: item
         material: brown_mushroom
@@ -135,13 +126,11 @@ pools:
         material: glowstone_dust
         weight: 7
         amount: 1
-        xo: 70
         sources: [soul_sand, soul_soil]
       - type: item
         material: nether_wart
         weight: 7
         amount: 1
-        xo: 70
         sources: [soul_sand, soul_soil]
   epic:
     base_chance: 0.05
