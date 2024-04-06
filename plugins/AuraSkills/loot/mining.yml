@@ -6,17 +6,17 @@ pools:
     loot:
       - type: item
         material: iron_nugget
-        weight: 15
+        weight: 5
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
         material: gold_nugget
-        weight: 10
+        weight: 5
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
         material: copper_ingot
-        weight: 10
+        weight: 5
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
@@ -26,12 +26,12 @@ pools:
         sources: [stone, andesite, diorite, granite]
       - type: item
         material: bone
-        weight: 15
+        weight: 20
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
         material: gunpowder
-        weight: 10
+        weight: 20
         amount: 1
         sources: [stone, andesite, diorite, granite]
       - type: item
@@ -50,27 +50,27 @@ pools:
     loot:
       - type: item
         material: amethyst_shard
-        weight: 10
+        weight: 5
         amount: 1
         sources: [tuff, deepslate]
       - type: item
         material: diamond
-        weight: 10
+        weight: 1
         amount: 1
         sources: [tuff, deepslate]
       - type: item
         material: iron_ingot
-        weight: 10
+        weight: 5
         amount: 1
         sources: [tuff, deepslate]
       - type: item
         material: gold_ingot
-        weight: 10
+        weight: 5
         amount: 1
         sources: [tuff, deepslate]
       - type: item
         material: coal_block
-        weight: 10
+        weight: 5
         amount: 1
         sources: [tuff, deepslate]
       - type: item

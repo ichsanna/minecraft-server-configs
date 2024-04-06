@@ -6,39 +6,39 @@ pools:
     loot:
       - type: item
         material: iron_nugget
-        weight: 15
+        weight: 5
         amount: 1
       - type: item
         material: gold_nugget
-        weight: 10
+        weight: 5
         amount: 1
       - type: item
-        material: copper_ingot
+        material: raw_copper
         weight: 10
         amount: 1
       - type: item
         material: coal
-        weight: 10
+        weight: 20
         amount: 1
       - type: item
         material: bone
-        weight: 15
+        weight: 20
         amount: 1
       - type: item
         material: slime_ball
-        weight: 10
+        weight: 15
         amount: 1
       - type: item
         material: gunpowder
-        weight: 10
+        weight: 20
         amount: 1
       - type: item
         material: amethyst_shard
-        weight: 10
+        weight: 5
         amount: 1
       - type: item
         material: clay_ball
-        weight: 10
+        weight: 20
         amount: 1
   epic:
     base_chance: 0.2
@@ -46,19 +46,19 @@ pools:
     loot:
       - type: item
         material: diamond
-        weight: 10
+        weight: 1
         amount: 1
       - type: item
         material: iron_ingot
-        weight: 10
+        weight: 2
         amount: 1
       - type: item
         material: gold_ingot
-        weight: 10
+        weight: 2
         amount: 1
       - type: item
         material: coal_block
-        weight: 10
+        weight: 5
         amount: 1
       - type: item
         material: bone_block
@@ -66,21 +66,21 @@ pools:
         amount: 1
       - type: item
         material: prismarine_shard
-        weight: 7
+        weight: 15
         amount: 1
       - type: item
         material: prismarine_crystals
-        weight: 7
+        weight: 15
         amount: 1
       - type: item
         material: nautilus_shell
-        weight: 7
+        weight: 5
         amount: 1
       - type: item
         material: heart_of_the_sea
-        weight: 7
+        weight: 2
         amount: 1
       - type: item
         material: slime_block
-        weight: 7
+        weight: 20
         amount: 1
