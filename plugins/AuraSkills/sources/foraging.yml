@@ -39,35 +39,35 @@ sources:
     trunk: true
   oak_leaves:
     block: oak_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   spruce_leaves:
     block: spruce_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   birch_leaves:
     block: birch_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   jungle_leaves:
     block: jungle_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   acacia_leaves:
     block: acacia_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   dark_oak_leaves:
     block: dark_oak_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   mangrove_leaves:
     block: mangrove_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   cherry_leaves:
     block: cherry_leaves
-    xp: 0.8
+    xp: 1.0
     leaf: true
   crimson_stem:
     block: crimson_stem

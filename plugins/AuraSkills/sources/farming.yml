@@ -28,7 +28,7 @@ sources:
       material: carrot
   beetroot:
     block: beetroots
-    xp: 3.7
+    xp: 4.0
     check_replace: false
     state:
       age: 3
@@ -36,7 +36,7 @@ sources:
       material: beetroot
   nether_wart:
     block: nether_wart
-    xp: 3.7
+    xp: 5.0
     check_replace: false
     state:
       age: 3
@@ -83,7 +83,7 @@ sources:
     blocks:
     - kelp
     - kelp_plant
-    xp: 0.3
+    xp: 0.25
     trigger: break
     check_replace: true
     menu_item:
