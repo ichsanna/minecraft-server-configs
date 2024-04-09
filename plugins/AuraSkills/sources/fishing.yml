@@ -28,7 +28,7 @@ sources:
   junk:
     item:
       category: fishing_junk
-    xp: 20
+    xp: 50
     menu_item:
       material: stick
   rare:

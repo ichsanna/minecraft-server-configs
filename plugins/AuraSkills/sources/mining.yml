@@ -7,40 +7,40 @@ default:
 sources:
   stone:
     block: stone
-    xp: 0.5
+    xp: 1.0
   cobblestone:
     block: cobblestone
-    xp: 0.5
+    xp: 1.0
   andesite:
     block: andesite
-    xp: 0.5
+    xp: 1.0
   diorite:
     block: diorite
-    xp: 0.5
+    xp: 1.0
   granite:
     block: granite
-    xp: 0.5
+    xp: 1.0
   sandstone:
     block: sandstone
-    xp: 0.5
+    xp: 1.0
   nether_quartz_ore:
     block: nether_quartz_ore
     xp: 2.0
   coal_ore:
     block: coal_ore
-    xp: 1.0
+    xp: 4.0
   iron_ore:
     block: iron_ore
-    xp: 4.0
+    xp: 8.0
   copper_ore:
     block: copper_ore
-    xp: 3.0
+    xp: 6.0
   gold_ore:
     block: gold_ore
-    xp: 15.0
+    xp: 20.0
   redstone_ore:
     block: redstone_ore
-    xp: 8.0
+    xp: 15.0
   lapis_ore:
     block: lapis_ore
     xp: 30.0
@@ -52,83 +52,83 @@ sources:
     xp: 100.0
   terracotta:
     block: terracotta
-    xp: 0.5
+    xp: 1.0
   white_terracotta:
     block: white_terracotta
-    xp: 0.5
+    xp: 1.0
   orange_terracotta:
     block: orange_terracotta
-    xp: 0.5
+    xp: 1.0
   yellow_terracotta:
     block: yellow_terracotta
-    xp: 0.5
+    xp: 1.0
   light_gray_terracotta:
     block: light_gray_terracotta
-    xp: 0.5
+    xp: 1.0
   brown_terracotta:
     block: brown_terracotta
-    xp: 0.5
+    xp: 1.0
   red_terracotta:
     block: red_terracotta
-    xp: 0.5
+    xp: 1.0
   netherrack:
     block: netherrack
-    xp: 0.2
+    xp: 1.0
   blackstone:
     block: blackstone
-    xp: 0.3
+    xp: 1.0
   basalt:
     block: basalt
-    xp: 0.5
+    xp: 1.0
   magma_block:
     block: magma_block
-    xp: 1.0
+    xp: 4.0
   nether_gold_ore:
     block: nether_gold_ore
-    xp: 10.0
+    xp: 20.0
   ancient_debris:
     block: ancient_debris
     xp: 500.0
   end_stone:
     block: end_stone
-    xp: 1.0
+    xp: 2.0
   obsidian:
     block: obsidian
-    xp: 10.0
+    xp: 15.0
   deepslate:
     block: deepslate
-    xp: 1.0
+    xp: 2.0
   tuff:
     block: tuff
-    xp: 1.0
+    xp: 2.0
   calcite:
     block: calcite
-    xp: 1.0
+    xp: 2.0
   smooth_basalt:
     block: smooth_basalt
-    xp: 1.0
+    xp: 2.0
   amethyst_block:
     block: amethyst_block
-    xp: 4.0
+    xp: 8.0
   amethyst_cluster:
     block: amethyst_cluster
     xp: 6.0
     support_block: side
   deepslate_coal_ore:
     block: deepslate_coal_ore
-    xp: 1.5
+    xp: 6.0
   deepslate_iron_ore:
     block: deepslate_iron_ore
-    xp: 6.0
+    xp: 12.0
   deepslate_copper_ore:
     block: deepslate_copper_ore
-    xp: 4.5
+    xp: 9.0
   deepslate_gold_ore:
     block: deepslate_gold_ore
-    xp: 22.5
+    xp: 30.0
   deepslate_redstone_ore:
     block: deepslate_redstone_ore
-    xp: 12.0
+    xp: 22.5
   deepslate_lapis_ore:
     block: deepslate_lapis_ore
     xp: 45.0
@@ -140,16 +140,16 @@ sources:
     xp: 150.0
   dripstone_block:
     block: dripstone_block
-    xp: 3.0
+    xp: 5.0
   ice:
     block: ice
-    xp: 0.5
+    xp: 1.0
   packed_ice:
     block: packed_ice
-    xp: 1.0
+    xp: 2.0
   blue_ice:
     block: blue_ice
-    xp: 1.5
+    xp: 4.0
   reinforced_deepslate:
     block: reinforced_deepslate
     xp: 150.0
