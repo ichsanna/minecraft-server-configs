@@ -56,6 +56,7 @@ Enchantments:
   - ghast
   - blast_mining
   - replanter
+  - silk_chest
   - telekinesis
   # Here you can disable certain enchantments in certain worlds.
   # Enchantment names are the same as enchantment file name in /enchants/ folder. ! Must be in lower_case !
