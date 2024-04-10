@@ -33,7 +33,7 @@ Enchanting_Table:
   # Level placeholder: %enchantment_level%
   Level_By_Exp_Cost: 10 * %enchantment_level%
   # Chance for this enchantment to be obtained via Enchanting_Table
-  Chance: 20.0
+  Chance: 5.0
   Level:
     # Minimal level when obtained via Enchanting_Table
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -43,7 +43,7 @@ Enchanting_Table:
     Max: -1
 Villagers:
   # Chance for this enchantment to be obtained via Villagers
-  Chance: 20.0
+  Chance: 5.0
   Level:
     # Minimal level when obtained via Villagers
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -53,7 +53,7 @@ Villagers:
     Max: -1
 Loot_Generation:
   # Chance for this enchantment to be obtained via Loot_Generation
-  Chance: 20.0
+  Chance: 5.0
   Level:
     # Minimal level when obtained via Loot_Generation
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -63,7 +63,7 @@ Loot_Generation:
     Max: -1
 Fishing:
   # Chance for this enchantment to be obtained via Fishing
-  Chance: 20.0
+  Chance: 5.0
   Level:
     # Minimal level when obtained via Fishing
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
@@ -73,7 +73,7 @@ Fishing:
     Max: -1
 Mob_Spawning:
   # Chance for this enchantment to be obtained via Mob_Spawning
-  Chance: 20.0
+  Chance: 5.0
   Level:
     # Minimal level when obtained via Mob_Spawning
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
