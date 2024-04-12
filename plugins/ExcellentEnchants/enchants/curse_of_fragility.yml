@@ -33,7 +33,7 @@ Enchanting_Table:
   # Level placeholder: %enchantment_level%
   Level_By_Exp_Cost: 30 * %enchantment_level%
   # Chance for this enchantment to be obtained via Enchanting_Table
-  Chance: 5.0
+  Chance: 0.0
   Level:
     # Minimal level when obtained via Enchanting_Table
     # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
