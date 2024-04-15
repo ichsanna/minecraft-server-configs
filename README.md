@@ -1,6 +1,23 @@
 # Minecraft Server Configs
-I used the following server configurations, plugins, and data packs for my private SMP server. The purpose was to rework boring elements, gameplay, and introduce new exploration feels.\
-**Please note that the list below was used on Minecraft 1.20.4 and hasn't been tested on different versions. Some incompatibility may occur if played on a different version.**
+I use the following server configurations, plugins, and datapacks for my private SMP server. The purpose is to rework boring elements, add new gameplay mechanics, and introduce new exploration feels.
+
+**Please note that the plugins, datapacks, and resource packs below is used on Minecraft 1.20.4 and hasn't been tested on different versions. Some incompatibility may occur if played on a different version.**
+
+## How to Setup
+1. Make sure you've installed Java.
+2. Clone this repo.
+3. Download the Paper and put it on main directory
+4. Run Paper using the following command: `java -jar paper-1.20.4-478.jar -nogui`. The filename depends on your Paper version.
+5. Before you proceed further, you need to agree to the EULA in "eula.txt".
+6. Download the plugins and put them inside "plugins" directory.
+7. Create "world" directory then "datapacks" inside "world" directory.
+8. Download the datapacks and put them inside "world/datapacks" directory.
+9. Download the resource pack and upload it somewhere easy to access via a direct URL.
+10. Change "resource_pack" URL in "server.properties" file.
+11. Change server map URL in "plugins/CommandPanels/panels/panel-1.yml".
+12. Run Paper again.
+13. Connect to server using Minecraft Client. Enjoy!
+
 ## Server Software
 - [Paper](https://papermc.io) - High performance server based on Spigot.
 ## Plugins
