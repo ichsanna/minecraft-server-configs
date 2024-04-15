@@ -1,56 +1,53 @@
-#                    _                   _ _          _ __  __       _
-#                   | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
-#                   | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
-#                   | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
-#                   |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
-#                             The Ultimate RPG Levelled Mobs Solution
+#                _                   _ _          _ __  __       _
+#               | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
+#               | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
+#               | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
+#               |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
+#                         The Ultimate RPG Levelled Mobs Solution
 #
-# --------------------------------------------------------------------------------------------LM3
-# +                                      ++                                                  +LM3
-# +  Main Developers                     ++  Need support documentation?                     +LM3
-# +    lokka30                           ++    https://github.com/lokka30/LevelledMobs/wiki  +LM3
-# +      Author and developer            ++                                                  +LM3
-# +      https://ko-fi.com/lokka30       ++  ArcanePlugins Support Discord                   +LM3
-# +                                      ++    https://discord.gg/RQ8M4A5                    +LM3
-# +                                      ++                                                  +LM3
-# +    stumper66                         ++  Special thanks:                                 +LM3
-# +      Developer since v2              ++    ArcanePlugins developers and testers!         +LM3
-# +      https://ko-fi.com/penalbuffalo  ++    Donators, patrons, and other supporters!      +LM3
-# +                                      ++    SpigotMC, PaperMC, ProtocolLib, NBT-API,      +LM3
-# +                                      ++    PlaceholderAPI, and bStats!                   +LM3
-# +    UltimaOath                        ++                                                  +LM3
-# +      Docs and configs since v2       ++  Other Contributors:                             +LM3
-# +                                      ++    Eyrian, iCodinqs, deiphiz, CoolBoy, Esophose, +LM3
-# +                                      ++    7smile7, Hugo5551, konsolas, Shevchik,        +LM3
-# +                                      ++    limzikiki, and Zombie_Striker                 +LM3
-# +                                      ++                                                  +LM3
-# --------------------------------------------------------------------------------------------LM3
-#                               _____
-#                              |     |___ ___ ___ ___ ___ ___ ___
-#                              | | | | -_|_ -|_ -| .'| . | -_|_ -|
-#                              |_|_|_|___|___|___|__,|_  |___|___|
-#                                                    |___|
+# -------------------------------------------------------------------------------------------LM3
+# +                                  ++                                                     +LM3
+# +    Developers and Maintainers    ++ Documentation (on our Wiki)                         +LM3
+# +                                  ++ . Wiki: https://tinyurl.com/lm-git-wiki             +LM3
+# + PenalBuffalo (aka. stumper66)    ++ . FAQ: https://tinyurl.com/lm-git-faq               +LM3
+# + . Primary Developer; LM3+        ++ . Sample Rules: https://tinyurl.com/lm-sample-rules +LM3
+# + . https://ko-fi.com/penalbuffalo ++ . Sample Drops: https://tinyurl.com/lm-sample-drops +LM3
+# +                                  ++                                                     +LM3
+# + lokka30                          ++ Support Discord and Forum                           +LM3
+# + . Original Plugin Author; LM0+   ++ . Join our Discord for free, quality support.       +LM3
+# + . https://ko-fi.com/lokka30      ++ . https://discord.gg/RQ8M4A5                        +LM3
+# +                                  ++                                                     +LM3
+# + UltimaOath (aka. Oathkeeper)     ++ Please Review Our Plugin!                           +LM3
+# + . Docs, Configs, Tester; LM2+    ++ . Hangar - https://tinyurl.com/lm-hangar            +LM3
+# + . https://ko-fi.com/ultimaoath   ++ . SpigotMC - https://tinyurl.com/lm-spigotmc        +LM3
+# +                                  ++                                                     +LM3
+# -------------------------------------------------------------------------------------------LM3
+#                             _____
+#                            |     |___ ___ ___ ___ ___ ___ ___
+#                            | | | | -_|_ -|_ -| .'| . | -_|_ -|
+#                            |_|_|_|___|___|___|__,|_  |___|___|
+#                                                  |___|
 #
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 01 - Common Messages                                                           +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 01 - Common Messages                                                          +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
 common:
   prefix: '&b&lLevelledMobs:&7'
   no-permission:
     - '%prefix% You don''t have access to that.'
   players-only:
-    - '%prefix% Only players may use that.'
   player-offline:
-    - '%prefix% &r%player%&7 is offline or invalid.'
+  invalid-command:
+    - '%prefix% Invalid command.'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 02 - Default Command Messages                                                  +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 02 - Default Command Messages                                                 +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
 command:
   levelledmobs:
     main-usage:
@@ -63,11 +60,11 @@ command:
       - '&8 &m->&b /%label% compatibility &8- &7check plugin''s compatibility with the server'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 03 - Summon Command Messages                                                   +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 03 - Summon Command Messages                                                  +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
     summon:
       invalid-amount:
         - '%prefix% Invalid amount ''&b%amount%&7''.'
@@ -121,11 +118,11 @@ command:
         - '%prefix% &b%entity%&7 is not levellable.'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 04 - Kill Command Messages                                                     +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 04 - Kill Command Messages                                                    +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
     kill:
       usage:
         - '%prefix% Usage: &b/%label% kill <all/near>'
@@ -151,59 +148,125 @@ command:
           - '%prefix% Usage: &b/%label% kill near <radius>'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 05 - Spawner Command Messages                                                  +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 05 - Spawner Command Messages                                                 +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
     spawner:
       usage:
         - '%prefix% Spawner command syntax:'
         - '&8 &m->&b /%label% spawner create'
         - '&8 &m->&b /%label% spawner copy'
         - '&8 &m->&b /%label% spawner info'
-        - '&7&o Sample Spawner'
-        - '&7/%label% spawner create &b/minlevel&7 1 &b/maxlevel&7 10 &b/name&7 "My customized LM spawner" &b/customDropsId&7 Id1'
+      no-value:
+      no-player:
+        - '%prefix% Command can only be run by a player unless the &b/giveplayer&7 parameter is specified.'
+      invalid-value:
+      no-level-specified:
+      inventory-full:
+      spawner-give-message:
+      spawner-give-message-console:
+      permission-denied:
+        - '%prefix% You don''t have permission to update or convert a LM spawner.'
+      spawner-converted:
+        - '%prefix% Converted vanilla spawner into a LM spawner with name "%spawnername%".'
+      spawner-updated:
+        - '%prefix% Updated LM spawner from spawn egg. Spawner name: "%spawnername%"'
+      info:
+        status-enabled:
+        status-not-enabled:
+        enabled:
+        disabled:
+      copy:
+        vanilla-spawner:
+        status-enabled:
+        status-not-enabled:
+        enabled:
+          - 'Your hand must be empty.'
+        disabled:
+
+
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 06 - Spawn Egg Command Messages                                               +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
+    spawn_egg:
+      usage:
+        - '%prefix% egg command syntax:'
+        - '&8 &m->&b /%label% egg /minlevel <level> /maxlevel <level> /entity <entity type>'
+        - '&7&o Sample Spawn Egg'
+        - '&7/%label% egg &b/minlevel&7 1 &b/maxlevel&7 10 &b/name&7 "My customized LM spawn egg" &b/customDropId&7 Id1'
+      no-paper:
+        - '%prefix% This feature is only available on servers running Paper or forks of Paper'
       no-value:
         - '%prefix% No value was specified for: &b%keyname%&7'
+      no-player:
+        - '%prefix% Command can only be run by a player unless /giveplayer is specified'
+      no-player-specified:
+        - '%prefix% No player was specified'
       invalid-value:
         - '%prefix% Invalid value for &b%keyname%&7, must be a number'
       no-level-specified:
-        - '%prefix% You must specify minLevel and/or maxLevel'
+        - '%prefix% You must specify minLevel, maxLevel and entity'
       inventory-full:
         - '%prefix% &4Your inventory is full!'
-      spawner-give-message:
-        - '%prefix% Gave you a LM spawner'
-      spawner-give-message-console:
-        - '%prefix% Gave &r%playername%&7 a LM spawner, minLevel &b%minlevel%&7, maxLevel: &b%maxlevel%&7'
-      info:
-        status-enabled:
-          - '%prefix% Spawner Info is &cenabled&f.'
-        status-not-enabled:
-          - '%prefix% Spawner Info is &cnot enabled&f.'
-        enabled:
-          - '%prefix% Spawner Info is &aenabled&f. Right-Click any Spawner for details!'
-        disabled:
-          - '%prefix% Spawner Info has been &adisabled&f.'
-      copy:
-        vanilla-spawner:
-          - '%prefix% Spawner Copy only works with LM spawners'
-        status-enabled:
-          - '%prefix% Spawner Copy is &cenabled&f.'
-        status-not-enabled:
-          - '%prefix% Spawner Copy is &cnot enabled&f.'
-        enabled:
-          - '%prefix% Spawner Copy is &aenabled&f. Right-Click a LM Spawner to make a copy.'
-          - 'Your hand must be empty.'
-        disabled:
-          - '%prefix% Spawner Copy has been &adisabled&f.'
+      give-message:
+        - '%prefix% Gave you a LM spawn egg'
+      give-message-console:
+        - '%prefix% Gave &r%playername%&7 a LM spawn egg. &8|&7 minLevel: &b%minlevel%&7, maxLevel: &b%maxlevel%&7, entity: &b%entitytype%&7'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 06 - System Command Messages                                                   +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 07 - Rules Command Messages                                                   +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
+    rules:
+      incomplete-command:
+        - '%prefix% Incomplete command'
+      console-rules:
+        - '%prefix% Rules have been printed on the console'
+      discord-invite:
+        - '%prefix% Click for Discord invite'
+      wiki-link:
+        - '%prefix% Click to open the wiki'
+      rules-reprocessed:
+        - '%prefix% Rules Reprocessed for &b%entitycount%&7 mobs in &b%worldcount%&7 world(s)'
+      reset:
+        - '%prefix% Running this command will reset your rules to one of 4 defaults.'
+        - 'You must select if you want basic/average/advanced/extreme difficulty.'
+        - 'A backup will be made and your rules.yml reset to default.'
+      resetting:
+        - '%prefix% Resetting rules to %difficulty%'
+      reset-syntax:
+        - '%prefix% To reset your rules to %difficulty% difficulty, type in the following command:'
+        - '%label% rules reset %difficulty% confirm'
+      reset-complete:
+        - '%prefix% rules.yml updated successfully'
+      invalid-difficulty:
+        - '%prefix% Invalid difficulty: %difficulty%'
+      rule-name-missing:
+        - '%prefix% Must specify a rule name.'
+      rule-name-invalid:
+        - '%prefix% No rule was found with name %rulename%'
+      showing-rules:
+        - 'Showing all values for rule: &b%rulename%&r'
+      no-entities-visible:
+        - '%prefix% Must be looking at a nearby entity'
+      no-entities-near:
+        - '%prefix% No entities were found within a 10 block radius'
+      effective-rules:
+        - '%prefix% Showing effective rules for: %entitytype% (lvl %level% %mobname%) in %world%, %location%'
+      no-effective-rules:
+        - '%prefix% No effective rules were found'
+
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 08 - System Command Messages                                                  +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
     reload:
       started:
         - '%prefix% Reloading configuration files...'
@@ -214,11 +277,8 @@ command:
     info:
       about:
         - ' '
-        - '&b&lLevelledMobs &fv%version%&7 by lokka30 & stumper66'
         - '&7&o%description%'
         - ' '
-        - '&7This version of the plugin supports: &fMinecraft %supportedVersions%'
-        - '&7Code contributors: &f%contributors%'
         - ' '
       listSeparator: '&7, &f'
       usage:
@@ -230,11 +290,11 @@ command:
         - '%prefix% Usage: &b/%label% compatibility'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 07 - Other Messages                                                            +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 09 - Other Messages                                                           +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
 other:
   compatibility-notice:
     enabled: true
@@ -251,12 +311,26 @@ other:
     send-on-join: true
 
   mob-head-drop-name: '%mob_name%''s head'
+  no-drop-in-chunk: '%prefix% &7Your levelled mob kill count has reached the maximum for this chunk. You will no longer receive levelled drops from these mobs. Please come back after a while.'
+  create-debug:
+    - '&b&nCreate a Debugging ZIP'
+    - '&7You should only run this command if a LevelledMobs developer has asked you to. It is used to assist users who are experiencing issues with the plugin.'
+    - ''
+    - '&7This command will generate a ZIP file containing the following required data:'
+    - '&8 &m->&b Plugins list'
+    - '&8 &m->&b Server version'
+    - '&8 &m->&b Current and maximum online player count'
+    - '&8 &m->&b The latest.log file&7 &8(/logs/latest.log)'
+    - ''
+    - '&7LevelledMobs developers will not redistribute or retain the data beyond the purpose of resolving any issue you may be experiencing. You may also verify the contents prior to sending the file.'
+    - '&7To proceed in creating the ZIP file, please run:'
+    - '&b/lm debug create-zip confirm&7'
 
 
-# +-------------------------------------------------------------------------------------------LM3
-# +                                                                                          +LM3
-# +   Section 08 - Advanced Message Settings                                                 +LM3
-# +   DO NOT EDIT BEYOND HERE WITHOUT DEVELOPER APPROVAL                                     +LM3
-# +                                                                                          +LM3
-# +-------------------------------------------------------------------------------------------LM3
-file-version: 6
+# +------------------------------------------------------------------------------------------LM3
+# +                                                                                         +LM3
+# +   Section 10 - Advanced Message Settings                                                +LM3
+# +   DO NOT EDIT BEYOND HERE WITHOUT DEVELOPER APPROVAL                                    +LM3
+# +                                                                                         +LM3
+# +------------------------------------------------------------------------------------------LM3
+file-version: 8

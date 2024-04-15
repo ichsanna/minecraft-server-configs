@@ -950,8 +950,8 @@ presets:
     name: 'LVLling Strategy - Distance-From-Spawn'
     strategies:
       distance-from-spawn:
-        increase-level-distance: 100
-        start-distance: 250
+        increase-level-distance: 250
+        start-distance: 500
         spawn-location:
           x: default
           z: default
@@ -1104,7 +1104,7 @@ custom-rules:
     strategies:
       distance-from-spawn:
         increase-level-distance: 100
-        start-distance: 250
+        start-distance: 500
         spawn-location:
           x: default
           z: default
@@ -1119,16 +1119,16 @@ custom-rules:
         allowed-list: ['world_the_end']
     strategies:
       distance-from-spawn:
-        increase-level-distance: 100
-        start-distance: 250
+        increase-level-distance: 250
+        start-distance: 1000
         spawn-location:
           x: default
           z: default
     apply-settings:
-      minLevel: 20
+      minLevel: 15
       maxLevel: 50
 
-  - enabled: true
+  - enabled: false
     name: 'CR - Custom Zombie Piglins'
     conditions:
       worlds:

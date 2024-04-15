@@ -1,0 +1,45 @@
+default:
+  type: fishing
+  menu_item:
+    material: '{item.material}'
+sources:
+  cod:
+    item:
+      material: cod
+    xp: 20
+  salmon:
+    item:
+      material: salmon
+    xp: 50
+  tropical_fish:
+    item:
+      material: tropical_fish
+    xp: 500
+  pufferfish:
+    item:
+      material: pufferfish
+    xp: 200
+  treasure:
+    item:
+      category: fishing_treasure
+    xp: 500
+    menu_item:
+      material: name_tag
+  junk:
+    item:
+      category: fishing_junk
+    xp: 50
+    menu_item:
+      material: stick
+  rare:
+    item:
+      loot_pool: rare
+    xp: 1000
+    menu_item:
+      material: orange_dye
+  epic:
+    item:
+      loot_pool: epic
+    xp: 2000
+    menu_item:
+      material: purple_dye

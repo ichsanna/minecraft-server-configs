@@ -1,44 +1,177 @@
-Is_Treasure: false
+# Enchantment display name. It will be shown in item lore.
 Name: Treasures
-Tier: exotic
+# Enchantment tier. Must be a valid tier identifier from the 'tiers.yml'.
+Tier: rare
+# Enchantment description. It will be shown in item lore under enchantment name.
+# You can use 'Enchantment' placeholders: https://github.com/nulli0n/ExcellentEnchants-spigot/wiki/Internal-Placeholders
 Description:
-  - '%enchantment_trigger_chance%% chance to find additional loot when mining/digging.'
+- '%enchantment_trigger_chance%% chance to attempt to find a treasure in mined block.'
+# Sets whether or not this enchantment will be hidden from Enchants GUI.
+Hide_From_List: false
+# Sets whether this enchantment is a treasure enchantment.
+# Treasure enchantments can only be received via looting, trading, or fishing.
+Is_Treasure: false
 Level:
+  # Sets the minimal (start) enchantment level. Can not be less than 1.
   Min: 1
-  Max: 4
+  # Sets the maximal enchantment level. Can not be less than min. level.
+  # Note: While you can 'bypass' this value by enchant commands, all level-dependant enchantment
+  # settings will have a limit up to this setting.
+  Max: 5
 Anvil:
+  # Sets max. enchantment level that can be obtained by combining 2 items with this enchantment.
+  # Set this to '-1' to remove merge limit and just use 'Max Level' instead.
+  Max_Merge_Level: -1
+  # Sets how much XP levels will be added to the anvil cost when combining custom enchantments.
+  # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+  # Level placeholder: %enchantment_level%
   Merge_Cost: '%enchantment_level%'
-Enchantment_Table:
-  Level_By_Exp_Cost: '7 * %enchantment_level%'
-  Chance: 25.0
+Enchanting_Table:
+  # Sets how much XP levels must be used in enchanting table to obtain this enchantment.
+  # With a default formula '9 * %enchantment_level%' it will be [9, 18, 27] XP levels for [1, 2, 3] enchantment levels.
+  # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+  # Level placeholder: %enchantment_level%
+  Level_By_Exp_Cost: 6 * %enchantment_level%
+  # Chance for this enchantment to be obtained via Enchanting_Table
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Enchanting_Table
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Enchanting_Table
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
 Villagers:
-  Chance: 20.0
+  # Chance for this enchantment to be obtained via Villagers
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Villagers
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Villagers
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
 Loot_Generation:
-  Chance: 20.0
+  # Chance for this enchantment to be obtained via Loot_Generation
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Loot_Generation
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Loot_Generation
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Fishing:
+  # Chance for this enchantment to be obtained via Fishing
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Fishing
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Fishing
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+Mob_Spawning:
+  # Chance for this enchantment to be obtained via Mob_Spawning
+  Chance: 50.0
+  Level:
+    # Minimal level when obtained via Mob_Spawning
+    # Can not be less than enchantment min. level. Set -1 to use enchantment min. level.
+    Min: -1
+    # Maximal level when obtained via Mob_Spawning
+    # Can not be greater than enchantment max. level. Set -1 to use enchantment max. level.
+    Max: -1
+# A list of conflicting enchantment names.
+# Conflicting enchantments can not be combined on anvils and obtained together on the same item.
+Conflicts: []
 Settings:
-  Trigger_Chance: '1.0 + %enchantment_level% / 2.0'
-  Particle_Effect: 'VILLAGER_HAPPY'
-  Sound: 'BLOCK_NOTE_BLOCK_BELL'
+  # Enables/Disables enchantment visual effects, such as particles.
+  Visual_Effects: true
+  # A chance that this enchantment will be triggered.
+  # You can use formulas/expressions here: https://github.com/nulli0n/NexEngine-spigot/wiki/Configuration-Tips#scalable-sections
+  # Level placeholder: %enchantment_level%
+  Trigger_Chance: 10.0 + %enchantment_level% * 4.0
+  # List of source materials (blocks that will drop additional loot). Separated by a comma.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
   Treasures:
     STONE:
-      LAPIS_LAZULI: 1.0
-      IRON_NUGGET: 1.0
-      GOLD_NUGGET: 1.0
-      COAL: 2.0
-    DIRT:
-      CHARCOAL: 2.0
-      GUNPOWDER: 2.0
-    NETHERRACK:
-      GLOWSTONE_DUST: 2.0
-      QUARTZ: 2.0
+      BONE_MEAL: 2.0
+    TUFF:
+      BONE_MEAL: 2.0
+    GRANITE:
+      BONE_MEAL: 2.0
     DEEPSLATE:
-      LAPIS_LAZULI: 2.0
-      IRON_INGOT: 1.0
-      GOLD_INGOT: 1.0
+      BONE_MEAL: 2.0
+    DEEPSLATE_TILES:
+      BONE_MEAL: 2.0
+    ANDESITE:
+      BONE_MEAL: 2.0
+    DIORITE:
+      BONE_MEAL: 2.0
+    BLACKSTONE:
+      BONE_MEAL: 2.0
+    MOSS_BLOCK:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    GRASS_BLOCK:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    MUD:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    MYCELIUM:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    DIRT:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    PODZOL:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    COARSE_DIRT:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    ROOTED_DIRT:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    MUDDY_MANGROVE_ROOTS:
+      CLAY_BALL: 0.5
+      BOWL: 1.0
+      STICK: 2.0
+    SUSPICIOUS_SAND:
+      GLOWSTONE_DUST: 1.0
+      GOLD_NUGGET: 0.3
+    RED_SAND:
+      GLOWSTONE_DUST: 1.0
+      GOLD_NUGGET: 0.3
     SAND:
-      GLASS: 1.0
-    SANDSTONE:
-      SAND: 2.0
-    END_STONE:
-     CHORUS_FLOWER: 2.0
-      
+      GLOWSTONE_DUST: 1.0
+      GOLD_NUGGET: 0.3
+    DARK_OAK_LEAVES:
+      APPLE: 12.0
+    BIRCH_LEAVES:
+      APPLE: 12.0
+    SPRUCE_LEAVES:
+      APPLE: 12.0
+    MANGROVE_LEAVES:
+      APPLE: 12.0
+    OAK_LEAVES:
+      APPLE: 12.0
+    AZALEA_LEAVES:
+      APPLE: 12.0
+    ACACIA_LEAVES:
+      APPLE: 12.0
+    FLOWERING_AZALEA_LEAVES:
+      APPLE: 12.0
+    JUNGLE_LEAVES:
+      APPLE: 12.0
+    CHERRY_LEAVES:
+      APPLE: 12.0
