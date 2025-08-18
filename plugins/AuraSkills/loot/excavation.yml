@@ -103,6 +103,11 @@ pools:
         amount: 1
         sources: [sands]
       - type: item
+        material: dried_kelp
+        weight: 7
+        amount: 1-2
+        sources: [sand, red_sand]
+      - type: item
         material: gunpowder
         weight: 5
         amount: 1

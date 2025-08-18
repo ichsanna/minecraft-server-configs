@@ -18,6 +18,12 @@ sql:
   load_delay: 0
   always_load_on_join: false
   ssl: false
+  pool:
+    maximum_pool_size: 10
+    minimum_idle: 10
+    connection_timeout: 5000
+    max_lifetime: 1800000
+    keepalive_time: 0
 default_language: en
 languages:
 - en
@@ -37,6 +43,9 @@ languages:
 - ru
 - id
 - vi
+- tr
+- fi
+- th
 try_detect_client_language: false
 hooks:
   HolographicDisplays:
@@ -45,6 +54,7 @@ hooks:
     enabled: true
   LuckPerms:
     enabled: true
+    use_permission_cache: true
   PlaceholderAPI:
     enabled: true
   ProtocolLib:
@@ -61,6 +71,13 @@ hooks:
     - Example
     blocked_check_replace_regions:
     - Example
+  MythicMobs:
+    enabled: true
+    handle_damage_increase: true
+    handle_damage_reduction: true
+    prevent_regular_xp: false
+  Nexo:
+    enabled: true
 action_bar:
   enabled: true
   idle: true
@@ -71,6 +88,8 @@ action_bar:
   round_xp: false
   placeholder_api: true
   use_suffix: true
+  format_last: false
+  update_async: false
 boss_bar:
   enabled: true
   mode: single
@@ -97,7 +116,59 @@ boss_bar:
   - HEALING WHITE PROGRESS
   - FORGING YELLOW PROGRESS
   xp_format: '#.#'
+  level_xp_format: '0'
   percent_format: '#.##'
+  money_format: '0.00'
+  animate_progress: true
+jobs:
+  enabled: false
+  selection:
+    require_selection: true
+    default_job_limit: 2
+    disable_unselected_xp: false
+    cooldown_sec: 0
+  income:
+    use_xp: true
+    use_expression: false
+    default:
+      income_per_xp: 0.1
+      expression: 0.1*xp
+    use_final_xp: true
+    batching:
+      enabled: false
+      interval_ms: 2000
+      display_individual: false
+anti_afk:
+  enabled: false
+  logging_enabled: true
+  log_threshold: min_count*4
+  checks:
+    block_a:
+      enabled: true
+      min_count: 100
+    damage_a:
+      enabled: true
+      max_distance: 0.5
+      min_count: 15
+    damage_b:
+      enabled: true
+      min_count: 5
+    damage_c:
+      enabled: true
+      min_count: 40
+    entity_a:
+      enabled: true
+      max_distance: 0.5
+      min_count: 50
+    entity_b:
+      enabled: true
+      min_count: 50
+    entity_c:
+      enabled: true
+      min_count: 100
+    fishing_a:
+      enabled: true
+      min_count: 10
 enable_roman_numerals: false
 damage_holograms:
   enabled: true
@@ -144,9 +215,12 @@ blocked_worlds:
 disabled_worlds:
 - Example
 disable_in_creative_mode: false
+data_validation:
+  correct_over_max_level: false
 on_death:
   reset_skills: false
   reset_xp: false
+  reset_xp_ratio: 0
 auto_save:
   enabled: true
   interval_ticks: 12000
@@ -165,6 +239,7 @@ leveler:
   double_check_delay: 20
 mana:
   enabled: true
+  cooldown_timer_period: 2
 modifier:
   armor:
     equip_blocked_materials:
@@ -177,16 +252,29 @@ modifier:
     enable_off_hand: true
   multiplier:
     enabled: true
-  auto_convert_from_legacy: true
+  auto_convert_from_legacy: false
+  temporary:
+    enabled: true
+    check_period: 20
 requirement:
   enabled: true
+  override_global: false
   item:
     prevent_tool_use: true
     prevent_weapon_use: true
     prevent_block_place: true
     prevent_interact: true
+    global: []
   armor:
     prevent_armor_equip: true
+    global: []
+  blocks:
+    enabled: true
+    bypass_in_creative_mode: true
+    bypass_if_op: false
+    list: []
+damage:
+  correct_last_damage: true
 critical:
   enabled:
     sword: true
@@ -209,15 +297,22 @@ source:
 menus:
   lore_wrapping_width: 43
   placeholder_api: true
+  removal_protection: false
   stats:
     show_trait_values_directly: true
+  stat_info:
+    enabled: true
 loot:
   update_loot_tables: true
+  directly_to_inventory: false
 check_for_updates: true
 automatic_backups:
   enabled: true
   minimum_interval_hours: 24
+  max_users: 50000
 save_blank_profiles: false
+experimental:
+  optimize_leaderboard_updating: false
 metadata:
   config_migration_complete: false
   file_user_migration_complete: false

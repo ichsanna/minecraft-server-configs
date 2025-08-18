@@ -128,7 +128,7 @@ sources:
     xp: 30.0
   deepslate_redstone_ore:
     block: deepslate_redstone_ore
-    xp: 22.5
+    xp: 20
   deepslate_lapis_ore:
     block: deepslate_lapis_ore
     xp: 45.0
