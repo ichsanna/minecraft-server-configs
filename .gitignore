@@ -29,6 +29,7 @@ ops.json
 !/plugins/AuraSkills/sources
 !/plugins/AuraSkills/rewards
 !/plugins/AuraSkills/*.yml
+/plugins/.paper-remapped
 /plugins/bstats
 /plugins/Chunky
 /plugins/dynmap/*
@@ -37,4 +38,6 @@ ops.json
 /plugins/excellentenchants/lang
 /plugins/excellentenchants/menu
 /plugins/LevelledMobs/messages.yml
-/plugins/nexengine
+/plugins/nightcore
+/plugins/ProtocolLib
+/plugins/spark

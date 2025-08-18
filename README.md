@@ -6,8 +6,8 @@ I use the following server configurations, plugins, and datapacks for my private
 ## How to Setup
 1. Make sure you've installed Java.
 2. Clone this repo.
-3. Download the Paper and put it on main directory
-4. Run Paper using the following command: `java -jar paper-1.20.4-478.jar -nogui`. The filename depends on your Paper version.
+3. Download Paper and put it on main directory
+4. Run Paper using the following command: `java -jar paper-1.21.8-39.jar -nogui`. The filename depends on your Paper version.
 5. Before you proceed further, you need to agree to the EULA in "eula.txt".
 6. Download the plugins and put them inside "plugins" directory.
 7. Create "world" directory then "datapacks" inside "world" directory.
@@ -56,15 +56,16 @@ I use the following server configurations, plugins, and datapacks for my private
 #### Aesthetic
 - Red Iron Golem Flowers - Adds red flower to the Iron Golem texture.
 - Colorful Enchanting Table Particles - Adds colorful particles around enchanting tables.
-- Unique Dyes - Differentiates each dye looks.
 #### Variation
-- Variated Bookshelf - Adds bookshelf texture variation.
+- Variated Bookshelves - Adds bookshelf texture variation.
 #### Connected Textures
-- Connected Bookshelf - Makes bookshelf textures connected to each other
+- Connected Bookshelves - Makes bookshelf textures connected to each other
 #### Utility
+- Age 25 Kelp - Adds flowers to the top of kelps when they are fully grown
 - Brewing Guide - Adds guide to brewing stand GUI.
 - Different Stems - Adds texture difference between pumpkin & melon stems.
 - Diminishing Tools - Adds different textures based on tool durability.
+- Fully Aged Crop Marker - Adds an indicator to ready-to-farm crops
 - Hunger Preview - Adds hunger points info to food names.
 - Ore Borders - Adds a border to the ore texture.
 - Suspicious Sand & Gravel Borders - Adds a border to the suspicious sand and gravel texture.
@@ -74,4 +75,6 @@ I use the following server configurations, plugins, and datapacks for my private
 - Borderless Glass - Removes glass border texture.
 - Borderless Stained Glass - Removes stained glass border texture.
 #### GUI
-- Smoother Font - Makes the font smoother.
+- Smooth Font - Makes the font smoother.
+#### World of Color
+- Unique Dyes - Differentiates each dye looks.
