@@ -29,7 +29,6 @@ I use the following server configurations, plugins, and datapacks for my private
 - [Farm Protection for MC 1.16 - 1.20](https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-20.85488/) - Disables crop breaking when jumping on top of them.
 - [Levelled Mobs](https://www.spigotmc.org/resources/levelledmobs.74304/) - Adds mob leveling.
 - [Overleveled Enchanter](https://www.spigotmc.org/resources/overleveled-enchanter.93379/) - Increases max enchantments level.
-- [SpigotPing](https://www.spigotmc.org/resources/spigotping-added-in-tablist-ping.24419/) - Adds ping indicator to the tab menu.
 ## Data packs
 ### World Generation
 - [Deeper Dark](https://modrinth.com/datapack/deeper_dark) - Adds new "Deeper Dark" dimension.
