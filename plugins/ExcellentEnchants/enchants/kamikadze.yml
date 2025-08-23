@@ -2,14 +2,14 @@ Definition:
   # Enchantment display name.
   # https://docs.advntr.dev/minimessage/format.html#standard-tags
   # [*] Reboot required when changed.
-  DisplayName: Swiper
+  DisplayName: Kamikadze
   # Enchantment description.
   # [*] Reboot required when changed.
   Description:
-  - '%enchantment_trigger_chance%% chance to steal %amount% XP from players.'
+  - '%enchantment_trigger_chance%% chance to explode on death.'
   # Weight affects the chance of getting an enchantment from enchanting or loots.
   # [*] Reboot required when changed.
-  Weight: 2
+  Weight: 5
   # The maximum level of this enchantment.
   # Value between 1 and 255 (inclusive).
   # [*] Reboot required when changed.
@@ -20,9 +20,9 @@ Definition:
   # [*] Reboot required when changed.
   MinCost:
     # The cost for a level I enchantment.
-    Base: 2
+    Base: 1
     # The amount of levels added to the Base for each level above level I
-    Per_Level: 20
+    Per_Level: 19
   # The maximum possible cost of this enchantment in levels.
   # Explanation: https://minecraft.wiki/w/Enchanting_mechanics#How_enchantments_are_chosen
   # Vanilla costs: https://minecraft.wiki/w/Enchanting/Levels
@@ -31,20 +31,20 @@ Definition:
     # The cost for a level I enchantment.
     Base: 7
     # The amount of levels added to the Base for each level above level I
-    Per_Level: 20
+    Per_Level: 19
   # The base cost when applying this enchantment to another item using an anvil. Halved when adding using a book, multiplied by the level of the enchantment.
   # [*] Reboot required when changed.
-  AnvilCost: 7
+  AnvilCost: 8
   # Items on which this enchantment can be applied using an anvil or using the /enchant command.
   # https://nightexpressdev.com/excellentenchants/features/item-sets
   # [*] IF INVALID ITEM SET PROVIDED, THE ENCHANTMENT WILL NOT LOAD!
   # [*] Reboot required when changed.
-  SupportedItems: swords_axes
+  SupportedItems: chestplate_elytra
   # Items for which this enchantment appears in an enchanting table.
   # https://nightexpressdev.com/excellentenchants/features/item-sets
   # [*] IF INVALID ITEM SET PROVIDED, THE ENCHANTMENT WILL NOT LOAD!
   # [*] Reboot required when changed.
-  PrimaryItems: sword
+  PrimaryItems: chestplate
   # Enchantments that are incompatible with this enchantment.
   # [*] Vanilla enchantments must be specified with the 'minecraft:' namespace: 'minecraft:sharpness'.
   # [*] Excellent enchantments must be specified with the 'excellentenchants:' namespace: 'excellentenchants:ice_aspect'.
@@ -68,7 +68,7 @@ Distribution:
   # [*] Reboot required when changed.
   # [*] Has no effect if 'Tradeable' is set on 'false' and Villager Trade Rebalance is disabled.
   TradeTypes:
-  - SWAMP_COMMON
+  - JUNGLE_COMMON
   # Controls if this enchantment can be found on spawned mobs' equipment.
   # https://minecraft.wiki/w/Armor#Armor_equipped_on_mobs
   # [*] Reboot required when changed.
@@ -96,14 +96,16 @@ Settings:
     Enabled: true
 Probability:
   Trigger_Chance:
-    Base: 6.0
-    Per_Level: 2.0
+    Base: 0.0
+    Per_Level: 3.0
     Capacity: 100.0
     Action: ADD
-Swiper:
-  # Amount of XP to be stolen on hit.
-  XP_Amount:
-    Base: 0.0
+Kamikadze:
+  # Sets whether or not enchantment will trigger on resurrect (when a totem is used).
+  Apply_On_Resurrect: true
+  # Explosion power.
+  Explosion_Power:
+    Base: 1.0
     Per_Level: 1.0
-    Capacity: 10.0
+    Capacity: 5.0
     Action: ADD
