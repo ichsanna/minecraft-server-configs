@@ -16,6 +16,7 @@ I use the following server configurations, plugins, and datapacks for my private
 10. Change "resource_pack" URL in "server.properties" file.
 11. Change server map URL in "plugins/CommandPanels/panels/panel-1.yml".
 12. Run Paper again.
+13. Run chunky command: `chunky radius [your-custom-radius, recommend 1000]`, `chunky world world`, and `chunky start`. Wait until finish.
 13. Connect to server using Minecraft Client. Enjoy!
 
 ## Server Software
@@ -34,17 +35,15 @@ I use the following server configurations, plugins, and datapacks for my private
 - [Deeper Dark](https://modrinth.com/datapack/deeper_dark) - Adds new "Deeper Dark" dimension.
 - [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns) - Adds new overworld structures.
 - [Explorify](https://modrinth.com/datapack/explorify) - Adds new structures.
-- [Hopo Better Mineshaft](https://modrinth.com/datapack/better-mineshaft)- Adds new mineshaft variants.
-- [Hopo Better Ruined Portal](https://modrinth.com/datapack/hopo-better-ruined-portals)- Adds new ruined portal variants.
-- [Hopo Better Underwater Ruins](https://modrinth.com/datapack/better-underwater-ruins)- Adds new ocean ruins variants.
-- [Just Another Structure Pack](https://modrinth.com/datapack/just-another-structure-pack/) - Adds new structures.
+- [Hopo Better Mineshafts](https://modrinth.com/datapack/hopo-better-mineshaft)- Adds new mineshaft variants.
+- [Hopo Better Ruined Portals](https://modrinth.com/datapack/hopo-better-ruined-portals/)- Adds new ruined portal variants.
+- [Hopo Better Underwater Ruins](https://modrinth.com/datapack/hopo-better-underwater-ruins)- Adds new ocean ruins variants.
 - [Stellarity](https://modrinth.com/datapack/stellarity) - Overhauls the end dimension terrain generation.
-- [Structory](https://www.stardustlabs.net/datapacks#Structory) - Adds new structures in addition to Terralith's.
-- [Terralith](https://www.stardustlabs.net/datapacks#Terralith) - Overhauls overworld terrain generation with new biomes and structures.
-- [Tidal Towns](https://modrinth.com/datapack/tidal-towns) - Adds new village to deep ocean biome.
-- [Towns & Towers](https://www.planetminecraft.com/data-pack/towns-amp-towers-structure-overhaul/) - Adds new structures.
+- [Structory](https://www.stardustlabs.net/structory) - Adds new structures in addition to Terralith's.
+- [Structory: Towers](https://modrinth.com/datapack/structory-towers) - Adds new tower structures in addition to Terralith's Structory.
+- [Terralith](https://www.stardustlabs.net/terralith) - Overhauls overworld terrain generation with new biomes and structures.
 ### Mobs
-- [Nice Mobs Variants](https://www.planetminecraft.com/data-pack/nice-mob-variants/) - Adds new mobs variants, structures, and bosses.
+- [Mob Madness](https://modrinth.com/datapack/mob-madness) - Adds new mobs variants.
 ### Other
 - [Refined Advancements](https://modrinth.com/datapack/refined-advancements) - Updates and adds new advancements.
 ## Vanilla Tweaks
