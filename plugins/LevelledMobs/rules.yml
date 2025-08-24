@@ -40,9 +40,10 @@ presets:
     name: 'LVL Strategy - Weighted Random'
     strategies:
       weighted-random:
-        1-2: 100
-        3-4: 25
-        5-6: 5
+        0: 100
+        1-2: 50
+        3-4: 20
+        5-6: 2
         7-8: 1
 
   lvlstrategy-distance-from-origin:
@@ -328,7 +329,7 @@ default-rule:
     minLevel: 1
     maxLevel: 50
 
-    construct-level: '%distance-from-origin% + %weighted-random% + %player-variable-mod% + %custom_special% + %rand_-5_5%'
+    construct-level: '%distance-from-origin% + %weighted-random% + %player-variable-mod% + %custom_special%'
 
   # CustomDrop Settings
     use-custom-item-drops-for-mobs: true
