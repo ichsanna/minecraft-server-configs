@@ -112,7 +112,7 @@ world-settings:
     max-entity-collisions: 8
     merge-radius:
       exp: 4.0
-      item: 4.0
+      item: 2.0
     growth:
       torchflower-modifier: 100
       twistingvines-modifier: 100
