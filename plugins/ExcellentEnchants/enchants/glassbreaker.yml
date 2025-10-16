@@ -9,7 +9,7 @@ Definition:
   - Breaks glass instantly
   # Weight affects the chance of getting an enchantment from enchanting or loots.
   # [*] Reboot required when changed.
-  Weight: 10
+  Weight: 4
   # The maximum level of this enchantment.
   # Value between 1 and 255 (inclusive).
   # [*] Reboot required when changed.
