@@ -12,7 +12,6 @@ Disabled:
   - blast_mining
   - replanter
   - silk_chest
-  - telekinesis
   - treefeller
   # Put here CUSTOM enchantment names that you want to disable in specific worlds.
   # To disable all enchantments for a world, use '*' instead of enchantment names.
