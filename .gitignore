@@ -15,6 +15,7 @@ ops.json
 *.jar
 
 /cache
+/debug
 /libraries
 /logs
 /versions
