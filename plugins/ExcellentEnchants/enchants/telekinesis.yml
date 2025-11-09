@@ -9,7 +9,7 @@ Definition:
   - Moves all blocks loot directly to your inventory.
   # Weight affects the chance of getting an enchantment from enchanting or loots.
   # [*] Reboot required when changed.
-  Weight: 1
+  Weight: 5
   # The maximum level of this enchantment.
   # Value between 1 and 255 (inclusive).
   # [*] Reboot required when changed.
