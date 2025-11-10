@@ -57,7 +57,7 @@ Distribution:
   # Treasure enchantments can only be received via looting, trading, or fishing.
   # If a treasure enchantment is tradable, it will have double the price (before capping to 64 emeralds) compared to a non-treasure enchantment of the same level.
   # [*] Reboot required when changed.
-  Treasure: true
+  Treasure: false
   # Controls if this enchantment can be sold by villagers.
   # https://minecraft.wiki/w/Trading#Librarian
   # [*] Reboot required when changed.
@@ -87,7 +87,7 @@ Distribution:
   # https://minecraft.wiki/w/Enchanting#Enchanting_table
   # [*] Reboot required when changed.
   # [*] Has no effect if 'Treasure' is set on 'true'.
-  Discoverable: false
+  Discoverable: true
 Settings:
   # Sets whether or not this enchantment will be hidden from Enchants GUI.
   Hide_From_List: false
