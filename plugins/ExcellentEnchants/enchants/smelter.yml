@@ -9,7 +9,7 @@ Definition:
   - Smelts mined blocks with %enchantment_trigger_chance%% chance.
   # Weight affects the chance of getting an enchantment from enchanting or loots.
   # [*] Reboot required when changed.
-  Weight: 5
+  Weight: 2
   # The maximum level of this enchantment.
   # Value between 1 and 255 (inclusive).
   # [*] Reboot required when changed.
